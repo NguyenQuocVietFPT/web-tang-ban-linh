@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html{
+    position: relative;
+}
+.content-header h3{
+    font-size: 26px;
+    color: pink;
+    text-align: center;
+}
+
+.content-body{
+    margin-top: 10px;
+    text-align: center;
+}
+.content-body .content-btn{
+    padding: 10px 16px;
+    font-size: 15px;
+    background-color: pink;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    border: 1px solid #ccc;
+}
+
+.content-body :hover{
+    background-color: #fff;
+    color: pink;
+    opacity: 0.7;
+}
